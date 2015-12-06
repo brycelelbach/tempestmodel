@@ -156,10 +156,10 @@ void GridGLL::Initialize() {
 			m_dREtaLevels);
 
 		// Initialize integral operator
-		m_opIntNodeToNode.InitializeNodeToNodeInterfaceMethod(
-			m_nVerticalOrder,
-			m_dREtaLevels,
-			m_dREtaInterfaces);
+		//m_opIntNodeToNode.InitializeNodeToNodeInterfaceMethod(
+		//	m_nVerticalOrder,
+		//	m_dREtaLevels,
+		//	m_dREtaInterfaces);
 
 	} else {
 		// Interpolation operators
