@@ -59,9 +59,9 @@ GridCartesianGLL::GridCartesianGLL(
 {
 	// Boundary condition
 	m_eBoundaryCondition[0] = BoundaryCondition_Periodic;
-	m_eBoundaryCondition[1] = BoundaryCondition_Periodic;
+	m_eBoundaryCondition[1] = BoundaryCondition_NoFlux;
 	m_eBoundaryCondition[2] = BoundaryCondition_Periodic;
-	m_eBoundaryCondition[3] = BoundaryCondition_Periodic;
+	m_eBoundaryCondition[3] = BoundaryCondition_NoFlux;
 
 	// Bring through the grid dimensions
 	m_dGDim[0] = dGDim[0]; m_dGDim[1] = dGDim[1];

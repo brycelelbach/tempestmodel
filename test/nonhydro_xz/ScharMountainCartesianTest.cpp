@@ -103,7 +103,7 @@ public:
 		m_fNoRayleighFriction(fNoRayleighFriction)
 	{
 		// Set the dimensions of the box
-		m_dGDim[0] = -30000.;
+		m_dGDim[0] = -30000.0;
 		m_dGDim[1] = 30000.0;
 		m_dGDim[2] = -200.0;
 		m_dGDim[3] = 200.0;
